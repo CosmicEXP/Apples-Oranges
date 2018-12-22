@@ -1,0 +1,54 @@
+/****************************Tag Selectors**************************/
+
+body {
+  background-color: lightblue;
+  background-image:
+    url("https://images.pexels.com/photos/814499/pexels-photo-814499.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: Red;
+  font-size: 150px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+img:hover {
+  background-color: gold;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+/****************************Class Selectors**************************/
+
+.a {
+  text-align: center;
+  font-size: 50px;
+  color: #cdeeaa;
+}
+
+.apple {
+  background-color: red;
+}
+
+.oranges {
+  background-color: orange;
+}
+
+.circular {
+  border-radius: 40%;
+}
+
+/****************************ID Selectors**************************/
+
+#heading {
+  color: #facd49;
+}
